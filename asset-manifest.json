@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/invocalc/static/css/main.4c1e9caf.css",
+    "main.js": "/invocalc/static/js/main.f849c270.js",
+    "static/js/787.8b3fbb57.chunk.js": "/invocalc/static/js/787.8b3fbb57.chunk.js",
+    "static/media/RuneScape-Plain-12.otf": "/invocalc/static/media/RuneScape-Plain-12.79d0f75d23f1d1480c87.otf",
+    "index.html": "/invocalc/index.html",
+    "main.4c1e9caf.css.map": "/invocalc/static/css/main.4c1e9caf.css.map",
+    "main.f849c270.js.map": "/invocalc/static/js/main.f849c270.js.map",
+    "787.8b3fbb57.chunk.js.map": "/invocalc/static/js/787.8b3fbb57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c1e9caf.css",
+    "static/js/main.f849c270.js"
+  ]
+}
