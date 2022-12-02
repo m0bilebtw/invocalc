@@ -17,6 +17,8 @@ const InvocationList = ({ setRaidLevel }) => {
         setRaidLevel(calculateRaidLevel(activeInvocations))
     }, [activeInvocations])
 
+    const fillerInvocations = 3 - (Object.keys(invocations).length % 3)
+
     return (
         <div className="invocationList">
             {Object.keys(invocations).map((name, index) => {
@@ -32,6 +34,9 @@ const InvocationList = ({ setRaidLevel }) => {
                     />
                 )
             })}
+            {[...Array(fillerInvocations)].map((e, i) => (
+                <div className="invocation filler">filler</div>
+            ))}
         </div>
     )
 }

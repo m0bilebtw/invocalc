@@ -75,3 +75,7 @@
     filter: grayscale(100%) brightness(10%);
     -webkit-filter: grayscale(100%) brightness(10%);
 }
+
+.invocation.filler {
+    visibility: hidden !important;
+}
